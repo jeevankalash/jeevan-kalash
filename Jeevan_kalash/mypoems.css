@@ -1,0 +1,81 @@
+*{
+	margin:0;
+	padding:0;
+	text-decoration: none;
+}
+.container{
+	width: 100%;
+}
+.navigation-bar{
+	width: 100%;
+	height: 60px;
+	display: flex;
+	background-color: black;
+}
+.navigation-bar .brand{
+	width: 40%;
+	height: inherit;
+	text-align: center;
+	margin-top: 10px;
+	color: white;
+}
+.navigation-bar .navigation{
+	width: 60%;
+	list-style-type: none;
+}
+.navigation-bar .navigation ul{
+	list-style-type: none;
+	display: flex;
+	text-align: center;
+	margin-top: 15px;
+}
+.navigation-bar .navigation ul li{
+	margin-right: 10%;
+	font-size: 20px;
+}
+.navigation-bar .navigation ul li:hover{
+	margin-right: 10%;
+	font-size: 20px;
+	text-decoration: underline;
+}
+.navigation-bar .navigation ul li a{
+	color: white;
+}
+.poems{
+	background-image: url(https://cdn.suwalls.com/wallpapers/abstract/grey-glow-29350-1920x1080.jpg);
+}
+
+.heading{
+	text-align: center;
+	width: inherit;
+	height: 70px;
+	background-color: #2F4F4F;
+}
+.heading h1{
+	position: relative;
+	top: 6px;
+	font-size: 3em;
+	text-shadow: 2px 2px 20px rgba(1,1,1,0.7);
+}
+.image img{
+	margin-top: 20px;
+	border-radius: 20px;
+	width: inherit;
+	height: 300px;
+}
+
+.image img:hover{
+	margin-top: 20px;
+	border-radius: 20px;
+	width: inherit;
+	height: 300px;
+	box-shadow: 10px 10px 5px rgba(0,0,0,0.5);
+}
+
+.poem{
+	margin-top: 20px;
+	width: inherit;
+	height: 660px;
+	text-align: center;
+	font-weight: bold;
+}
