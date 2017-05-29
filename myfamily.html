@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Family</title>
+	<link rel="stylesheet" type="text/css" href="myfamily.css">
+	<script type="text/javascript">
+		var myScrollFunc = function(){
+			var y= window.scrollY;
+			if(y>=180){
+				divContainer1.className="container1 show";
+				divContainer2.className="container2 show";
+			}
+		}
+		window.addEventListener("scroll", myScrollFunc);
+	</script>
+</head>
+
+<body>
+<div class="container">
+		<div class="navigation-bar">
+			<div class="brand"><h1>JEEVAN KALASH</h1></div>
+				<div class="navigation">
+					<ul>
+						<li><a href="index.html">About Me</a></li>
+						<li><a href="mypoems.html">My Poems</a></li>
+						<li><a href="#">My Family</a></li>
+						<li><a href="contactme.html">Contact Me</a></li>
+					</ul>
+				</div>
+		</div>
+</div>
+<br><br>
+<div class="container">
+	<div class="slideshow">
+		<div class="anibox"></div>
+	</div>
+</div>
+
+<div class="container1 hide" id="divContainer1"></div>
+<div class="container2 hide1" id="divContainer2"></div>
+
+<div class="container3">
+	
+	<h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dui dui, luctus id augue et, condimentum lobortis ligula. Aliquam erat volutpat. Curabitur mattis quis libero a imperdiet. Pellentesque a enim quis mi vestibulum porttitor. Proin eu auctor risus. Mauris ultricies dui at massa vulputate gravida. Nulla elementum eget enim nec ornare. Pellentesque pulvinar ipsum eget felis vehicula posuere. Proin facilisis id sapien eu sagittis. Aenean a ligula turpis. Phasellus lacinia efficitur lorem, volutpat interdum tellus maximus id. In massa mi, congue eu sapien quis, pretium venenatis sem. Proin dui justo, porttitor a elit sit amet, congue venenatis dolor.
+
+Aliquam vestibulum, mi vel malesuada ullamcorper, dolor libero semper quam, vitae tempor eros sem fringilla justo. Mauris sed orci nec nulla ultricies pharetra non at quam. Ut sem ex, fringilla non risus rhoncus, dignissim varius enim. Sed rutrum rhoncus nunc, ut aliquam urna sagittis quis. Nulla facilisi. Proin sit amet tellus tortor. Aliquam id nulla nunc. In imperdiet, ipsum eu laoreet auctor, mauris mi egestas ex, sed vestibulum odio enim ut leo.</h3><br>
+</div>
+</body>
+</html>
