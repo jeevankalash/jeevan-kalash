@@ -55,6 +55,7 @@
 	left: 550px;
 	border-radius: 150px;
 	z-index: 1;
+	transition: box-shadow 1s ease;
 }
 .about-me img:hover{
 	width: 250px;
