@@ -1,7 +1,6 @@
 <?php
 
 include "config.php";
-require "C:\PHPMailer-5.2.23\PHPMailer-5.2.23\PHPMailerAutoload.php";
 
 $Name= $_POST['name'];
 $Email= $_POST['email'];
@@ -20,31 +19,4 @@ else{
 	echo "couldn't add data";
 }
 
-$mail = new PHPMailer;
-
-//From email address and name
-$mail->From = "from@yourdomain.com";
-$mail->FromName = "Full Name";
-
-//To address and name
-$mail->addAddress("meghna12091996@gmail.com", "Meghna Sinha");
-
-//Address to which recipient will reply
-$mail->addReplyTo("reply@yourdomain.com", "Reply");
-
-//Send HTML or Plain Text email
-$mail->isHTML(true);
-
-$mail->Subject = "Subject Text";
-$mail->Body = "<i>Mail body in HTML</i>";
-$mail->AltBody = "This is the plain text version of the email content";
-
-if(!$mail->send()) 
-{
-    echo "Mailer Error: " . $mail->ErrorInfo;
-} 
-else 
-{
-    echo "Message has been sent successfully";
-}
 ?>
